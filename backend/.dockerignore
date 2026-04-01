@@ -1,0 +1,5 @@
+node_modules/     # déjà installés dans le conteneur, inutile de les copier
+npm-debug.log     # logs de debug locaux, sans intérêt en CI
+.env              # ne jamais embarquer les secrets dans l'image
+.git              # historique Git inutile dans le conteneur
+test/             # les tests ne sont utiles que dans le stage builder
