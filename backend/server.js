@@ -4,6 +4,10 @@ app.get("/health", (req, res) => {
     res.json({ status: "ok", timestamp: new Date() });
 });
 app.get("/api/activities", (req, res) => {
+<<<<<<< HEAD
 res.json([{ id: 1, name: "Running", duration: 30 }]);
+=======
+res.json([{ id: 1, name: "Cycling", duration: 45 }]);
+>>>>>>> feature/update-health
 });
 app.listen(3000, () => console.log("VitalSync API on :3000"));
