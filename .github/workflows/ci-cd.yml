@@ -29,7 +29,7 @@ jobs:
 
       - name: Run ESLint
         working-directory: ./backend
-        run: npx eslint server.js --env node --parser-options=ecmaVersion:2020
+        run: npx eslint server.js
 
       - name: Run tests
         working-directory: ./backend
