@@ -8,7 +8,7 @@ coverage/
 .env.local
 .env.production
 .env.staging
-!.env.example
+.env.example
 docker-compose.override.yml
 .DS_Store
 Thumbs.db
@@ -19,4 +19,3 @@ desktop.ini
 *.swo
 dist/
 build/
-git commit -m "chore(git): add .gitignore for Node.js and env files"
